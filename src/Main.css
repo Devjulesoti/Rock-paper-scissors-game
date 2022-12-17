@@ -1,0 +1,104 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+
+.main .result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main .score-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.score-section div {
+  background-color: white;
+  padding: 0px 15px;
+  border-radius: 5px;
+}
+.score-section {
+  width: 75%;
+  max-width: 600px;
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+.writeup {
+  width: 20px;
+  font-size: 18px;
+  color: whitesmoke;
+  line-height: 18px;
+  margin-right: 22px;
+}
+.inst-con {
+  color: white;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 20px;
+}
+img {
+  background-color: aliceblue;
+  width: 38%;
+  padding: 20px;
+  margin-top: 40px;
+  border: 20px solid green;
+  border-radius: 50%;
+}
+.result div {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.paper-con img {
+  border: 20px solid gold;
+}
+.scissors-con img {
+  border: 20px solid red;
+}
+button {
+  padding: 10px;
+  width: 30%;
+  max-width: 200px;
+  border: none;
+  transition: 1s;
+}
+button:hover {
+  background-color: yellow;
+}
+@media (max-width: 557px) {
+  .main {
+    width: 100%;
+  }
+  .main .result {
+    gap: 17px;
+  }
+  img {
+    /* margin: 0 auto; */
+    width: 25%;
+  }
+  .main .score-section {
+    display: block;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+  }
+  .writeup {
+    width: 100%;
+    font-size: 22px;
+  }
+  .score-section div {
+    display: inline-block;
+    width: 60%;
+    margin: 10px auto;
+  }
+}
